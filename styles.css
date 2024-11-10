@@ -39,6 +39,9 @@ img {
      margin: 0 auto;
 }
     
+.profile-image {
+    grid-row: 1 / span 3; 
+}
 
 
     
