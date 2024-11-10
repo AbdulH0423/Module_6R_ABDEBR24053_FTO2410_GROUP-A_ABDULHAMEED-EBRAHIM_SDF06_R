@@ -65,4 +65,11 @@ img {
 .gallery-item:hover .gallery-item-info {
     opacity: 1;
   }
+
+  .gallery-item-info ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
