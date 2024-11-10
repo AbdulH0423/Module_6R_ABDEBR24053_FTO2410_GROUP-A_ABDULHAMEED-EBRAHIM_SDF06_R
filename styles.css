@@ -27,6 +27,20 @@ img {
     border-style: solid;
     border-width: 10px;
     border-color: rgb(5, 155, 143);}
+    border-color: rgb(5, 155, 143);
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    grid-template-rows: auto auto auto; 
+    gap: 15px;     
+     max-width: 800px;
+     margin: 0 auto;
+}
+    
+
+
     
 .gallery {
     display: grid;
