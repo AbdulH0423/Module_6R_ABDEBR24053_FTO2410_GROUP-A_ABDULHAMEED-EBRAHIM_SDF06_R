@@ -69,6 +69,12 @@ img {
     font-weight: bold;
 }
 
+.profile-bio {
+    grid-column: 2; 
+    grid-row: 3; 
+    font-size: 14px;
+    line-height: 1.5;
+}
     
 .gallery {
     display: grid;
