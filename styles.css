@@ -48,4 +48,21 @@ img {
     height: auto;
     display: block;
   }
+/*initially hiding the likes and comments*/
+.gallery-item-info{
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    color: #838080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+}
+/* Show info on hover */
+.gallery-item:hover .gallery-item-info {
+    opacity: 1;
+  }
   
