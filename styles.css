@@ -26,7 +26,6 @@ img {
     border-radius: 50%;
     border-style: solid;
     border-width: 10px;
-    border-color: rgb(5, 155, 143);}
     border-color: rgb(5, 155, 143);
 }
 
@@ -134,4 +133,11 @@ img {
         grid-row: 1;
         width: 80%; 
         margin: 0 auto; 
+    }
+    .profile-user-settings {
+        grid-column: 1;
+        grid-row: 2;
+        grid-template-columns: 1fr auto;
+        gap: 5px;
+        text-align: center;
     }
