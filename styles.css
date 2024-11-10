@@ -35,3 +35,17 @@ img {
     padding: 20px;
   }
   
+/* Gallery Item */
+.gallery-item {
+    position: relative;
+    border: 1px solid #020202;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  /* Gallery Image */
+.gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
