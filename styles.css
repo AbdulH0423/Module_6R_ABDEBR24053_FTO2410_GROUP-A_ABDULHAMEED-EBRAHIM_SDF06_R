@@ -51,9 +51,11 @@ img {
 /*initially hiding the likes and comments*/
 .gallery-item-info{
     position: absolute;
-    width: 100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
     background: transparent;
-    color: #838080;
+    color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
