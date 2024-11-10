@@ -129,3 +129,9 @@ img {
         grid-template-columns: 1fr; 
         grid-template-rows: auto auto auto auto; 
     }
+    .profile-image {
+        grid-column: 1;
+        grid-row: 1;
+        width: 80%; 
+        margin: 0 auto; 
+    }
