@@ -160,3 +160,6 @@ img {
         font-size: 12px;
         text-align: center;
     }
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+}
