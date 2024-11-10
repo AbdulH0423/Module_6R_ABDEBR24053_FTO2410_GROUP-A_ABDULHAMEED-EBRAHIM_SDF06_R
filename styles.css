@@ -55,6 +55,16 @@ img {
     width: 100%;
 }
 
+.profile-stats{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.profile-stats ul{
+    list-style: none;
+    display:flex;
+    gap:25px;
+}
     
 .gallery {
     display: grid;
