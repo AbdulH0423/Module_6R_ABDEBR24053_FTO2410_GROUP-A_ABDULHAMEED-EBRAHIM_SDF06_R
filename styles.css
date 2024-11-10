@@ -141,3 +141,10 @@ img {
         gap: 5px;
         text-align: center;
     }
+
+    .profile-stats {
+        grid-column: 1;
+        grid-row: 3;
+        justify-content: center;
+    }
+
