@@ -123,3 +123,9 @@ img {
     align-items: center;
   }
   
+  @media (max-width: 768px) {
+    /* Profile layout adjustments */
+    .profile {
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto auto auto auto; 
+    }
