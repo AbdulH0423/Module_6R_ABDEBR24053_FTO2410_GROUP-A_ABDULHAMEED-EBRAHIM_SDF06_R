@@ -148,3 +148,15 @@ img {
         justify-content: center;
     }
 
+
+
+    .profile-stats ul {
+        gap: 15px;
+        justify-content: center;
+    }
+    .profile-bio {
+        grid-column: 1;
+        grid-row: 4;
+        font-size: 12px;
+        text-align: center;
+    }
